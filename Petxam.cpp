@@ -2,10 +2,13 @@
 //
 
 #include <iostream>
+#include <vector>
 int ejercicio;
 int numeros[8];
+//vector<int> numbers = {9386,8642,4621,5232,3314};
 using namespace std;
-int numbersread();
+//int numbersread();
+
 class Critter
 {
 public:
@@ -140,7 +143,7 @@ int main()
 	switch (ejercicio)
 	{
 	case 1:
-        numbersread();
+        /*numbersread();*/
 		break;
 	case 2:
         Critter crit;
@@ -190,19 +193,19 @@ int main()
 
 	
 }
-int numbersread()
-{
-	for (int i = 0; i < 8; i++)
-	{
-		cin >> numeros[i];
-
-	}
-    for (int i = 0; i < 8; i++)
-    {
-        cout << numeros[i];
-    }
-    return 0;
-}
+//int numbersread()
+//{
+//	for (int i = 0; i < 8; i++)
+//	{
+//		cin >> numeros[i];
+//        numbers.push_back(numeros[i]);
+//	}
+//    for (int i = 0; i < numbers.count; i++)
+//    {
+//        cout << numbers[i];
+//    }
+//    return 0;
+//}
 
 // Ejecutar programa: Ctrl + F5 o menú Depurar > Iniciar sin depurar
 // Depurar programa: F5 o menú Depurar > Iniciar depuración
